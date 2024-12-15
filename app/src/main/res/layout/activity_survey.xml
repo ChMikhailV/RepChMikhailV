@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вопрос1"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answerGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ1" />
+
+            <RadioButton
+                android:id="@+id/option1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ2" />
+
+            <RadioButton
+                android:id="@+id/option1_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ3" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вопрос2"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answerGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ1" />
+
+            <RadioButton
+                android:id="@+id/option2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ2" />
+
+            <RadioButton
+                android:id="@+id/option2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ3" />
+
+            <RadioButton
+                android:id="@+id/option2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ4" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вопрос3"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/answerGroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ1" />
+
+            <RadioButton
+                android:id="@+id/option3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ2" />
+
+            <RadioButton
+                android:id="@+id/option3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ответ3" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="далее" />
+
+    </LinearLayout>
+</ScrollView>
